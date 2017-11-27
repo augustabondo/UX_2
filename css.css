@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+* {
+    max-width: 1024px;
+    margin top: 40px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+
+/******** FLEXBOX START ********/
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 30px;
+}
+
+.column {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.column_content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.color {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.color_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    flex-basis: 300px;
+    flex-grow: 2;
+}
+
+
+/********** KONTAKT ********/
+
+#kontakt {
+    margin-top: 60px;
+}
+
+#kontakt .column {
+    flex-basis: 100px;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+
+/******** GRUPPEKONTRAKT *******/
+
+#gruppekontrakt {
+    margin-top: 60px;
+}
+
+#gruppekontrakt .column {
+    text-align: center;
+}
+
+
+/******* TRELLOBOARD ***********/
+
+#trelloboard {
+    margin-top: 60px;
+}
+
+#trelloboard .column {
+    text-align: center;
+}
+
+
+/********** PERSONA ***********/
+
+#persona {
+    margin-top: 60px;
+}
+
+
+/***********IDEER***********/
+
+#ideer {
+    margin-top: 60px;
+}
+
+
+/*************SCRUM*************/
+
+#scrum {
+    margin-top: 60px;
+}
