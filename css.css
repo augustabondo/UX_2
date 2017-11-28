@@ -4,14 +4,39 @@
     background-color: white;
 }
 
-* {
+body {
+    margin: auto;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+#content_box {
     max-width: 1024px;
     margin top: 40px;
     margin: 0 auto;
 }
 
-img {
-    width: 100%;
+a {
+    color: #a19b9b;
+    text-decoration: none;
+}
+
+
+/* SKRIFT TYPE & FARVE */
+
+h1 {
+    color: rgba(0, 136, 255, 0.41);
+}
+
+h2 {
+    color: rgba(0, 136, 255, 0.41);
+}
+
+p {
+    color: #a19b9b;
 }
 
 
@@ -51,16 +76,166 @@ img {
 }
 
 
+/* *** NAV START *** */
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    top: 0;
+    left: 0;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: grid;
+    background-color: rgba(255, 255, 255, 0);
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+/* *** NAV SLUT *** */
+
+
+/*---- DROP DOWN MENU ---*/
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #a19b9b;
+    height: 55px;
+    margin-top: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 4;
+}
+
+.container_drop {
+    margin: 0;
+    position: fixed;
+    padding: 8px 0px 8px 20px;
+    display: block;
+    cursor: pointer;
+    background-color: #a19b9b;
+    min-width: 260px;
+}
+
+.container_drop a {
+    color: black;
+    padding: 0px;
+    text-decoration: none;
+    display: block;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+
+/* Rotate first bar */
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+    background-color: white;
+}
+
+
+/* Fade out the second bar */
+
+.change .bar2 {
+    opacity: 0;
+    background-color: #2142b5;
+}
+
+
+/* Rotate last bar */
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+    background-color: white;
+}
+
+.dropdown {
+    display: none;
+    background-color: #a19b9b;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    min-width: 160px;
+    z-index: 1;
+    padding: 5px 40px 0px 10px;
+    background-color: #a19b9b;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: #F7F0E7;
+    padding: 5px 0px 0px 10px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Futura';
+    letter-spacing: 2px;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    color: #2142b5;
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+    display: block;
+}
+
+
 /********** KONTAKT ********/
 
 #kontakt {
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 #kontakt .column {
-    flex-basis: 100px;
-    flex-grow: 1;
-    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 2px;
+    flex-grow: 2;
+    margin-left: 15px;
+}
+
+#kontakt ul {
+    list-style-type: none;
+    color: #a19b9b;
+}
+
+
+/* *** KONTAKT *** */
+
+#kontakt img {
+    border-radius: 50%;
+    max-width: 150px;
 }
 
 
@@ -75,11 +250,15 @@ img {
 }
 
 
-/******* TRELLOBOARD ***********/
+/* EXPERIENCE MAP */
 
-#trelloboard {
-    margin-top: 60px;
+#experiencemap .column {
+    max-width: 50vw;
+    margin: auto;
 }
+
+
+/******* TRELLOBOARD ***********/
 
 #trelloboard .column {
     text-align: center;
@@ -104,4 +283,12 @@ img {
 
 #scrum {
     margin-top: 60px;
+}
+
+
+/* INDEX HTML */
+
+#forside h1 {
+    margin: auto;
+    margin-top: 100px;
 }
