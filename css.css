@@ -324,12 +324,19 @@ header {
     border-radius: 10%;
 }
 
+#ideer .bottom {
+    align-self: flex-end;
+}
+
 
 /*************SCRUM*************/
 
 #scrum {
     margin-top: 60px;
 }
+
+
+/* UI */
 
 
 /* INDEX HTML */
