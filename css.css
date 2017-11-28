@@ -48,7 +48,7 @@ h1 {
 }
 
 h2 {
-    color: rgba(0, 136, 255, 0.41);
+    color: #a19b9b;
     font-family: 'Gotham', sans-serif;
     font-size: 1.8em;
 }
@@ -69,6 +69,12 @@ a {
     color: #a19b9b;
     font-family: 'Gotham', sans-serif;
     font-size: 0.9em;
+}
+
+B {
+    color: #a19b9b;
+    font-family: 'big_johnregular', sans-serif;
+    font-size: 1.2em;
 }
 
 
@@ -289,6 +295,10 @@ header {
     margin: auto;
 }
 
+#experiencemap img {
+    border-radius: 10%;
+}
+
 
 /******* TRELLOBOARD ***********/
 
@@ -310,6 +320,10 @@ header {
     margin-top: 60px;
 }
 
+#ideer img {
+    border-radius: 10%;
+}
+
 
 /*************SCRUM*************/
 
@@ -323,4 +337,9 @@ header {
 #forside h1 {
     margin: auto;
     margin-top: 100px;
+}
+
+#links img {
+    margin: 0;
+    max-width: 20vw;
 }
