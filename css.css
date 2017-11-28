@@ -27,16 +27,48 @@ a {
 
 /* SKRIFT TYPE & FARVE */
 
+@font-face {
+    font-family: 'big_johnregular';
+    src: url('webfontkit-bigjohn/big_john_webfont.woff2') format('woff2'), url('webfontkit-bigjohn/big_john_webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('webfont_gotham/Gotham-Light.woff2') format('woff2'), url('webfont_gotham/Gotham-Light.woff') format('woff'), url('Gotham-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
 h1 {
     color: rgba(0, 136, 255, 0.41);
+    font-family: 'big_johnregular', sans-serif;
+    font-size: 2em;
 }
 
 h2 {
     color: rgba(0, 136, 255, 0.41);
+    font-family: 'Gotham', sans-serif;
+    font-size: 1.8em;
 }
 
 p {
     color: #a19b9b;
+    font-family: 'Gotham', sans-serif;
+    font-size: 0.9em;
+}
+
+li {
+    color: #a19b9b;
+    font-family: 'Gotham', sans-serif;
+    font-size: 0.65em;
+}
+
+a {
+    color: #a19b9b;
+    font-family: 'Gotham', sans-serif;
+    font-size: 0.9em;
 }
 
 
