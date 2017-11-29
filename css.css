@@ -181,6 +181,17 @@ header {
     transition: 0.4s;
 }
 
+#ikon img {
+    max-width: 50px;
+    background-color: #a19b9b;
+}
+
+#ikon {
+    position: absolute;
+    right: 0;
+    background-color: #a19b9b;
+}
+
 
 /* Rotate first bar */
 
@@ -313,6 +324,11 @@ header {
     margin-top: 60px;
 }
 
+#persona .column {
+    max-width: 35vw;
+    margin: auto;
+}
+
 
 /***********IDEER***********/
 
@@ -344,6 +360,11 @@ header {
 #forside h1 {
     margin: auto;
     margin-top: 100px;
+}
+
+#forside .column {
+    margin: auto;
+    max-width: 40vw;
 }
 
 #links img {
