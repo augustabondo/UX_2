@@ -3,12 +3,22 @@
     padding: 0;
 }
 
-#index {
+
+/* #index {
     background-image: url(baggrund.jpg);
     background-size: 100%;
     margin-top: -70px;
     padding-top: 70px;
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 760px;
+} */
+
+#index {
+    background-color: #f1f1f1;
+    background-size: 100%;
+    margin-top: -70px;
+    padding-top: 70px;
     background-repeat: no-repeat;
     height: 760px;
 }
@@ -386,4 +396,12 @@ header {
 #links .column1 {
     margin: 30px 70px 0px 0px;
     margin-left: -30px;
+}
+
+#video {}
+
+video {
+    max-width: 100%;
+    margin-left: 25vw;
+    margin-top: -8vw;
 }
